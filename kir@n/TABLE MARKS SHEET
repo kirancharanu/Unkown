@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKS SHEET</title>
+    <style>
+        table,th,td{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr style="background-color: rgb(233, 233, 87);">
+            <th>NO.</th>
+            <th>SUBJECT</th>
+            <TH>NO.OF PASS</TH>
+            <TH>NO.OF FAIL</TH>
+            <TH>TOTAL</TH>
+            </tr>
+
+        </thead>
+        <TFoot>
+             <tr style="background-color: rgb(230, 230, 71);"
+            <TH>colspan-"2" GRAND TOTAL</TH>
+            <TD>850</TD>
+        </TFoot>
+        <tbody>
+             <colgroup>
+                <col span="1">
+                <col span="1">
+                <col span="1" style="background-color: green;"
+                <col span="1" style="background-color: red;"
+                <col span="1>"
+             </colgroup>
+            <tr>
+                <tr>1</tr>
+                <tr>TELUGU</tr>
+                <tr>130</tr>
+                <tr>20</tr>
+                <tr>150</tr>
+            </tr>
+            <tr>
+                <tr>2</tr>
+                <tr>HINDI</tr>
+                <tr>100</tr>
+                <tr>30</tr>
+                <tr>130</tr>
+            </tr>
+            <tr>
+                <tr>3</tr>
+                <tr>ENGLISH</tr>
+                <tr>100</tr>
+                <tr>10</tr>
+                <tr>110</tr>
+            </tr>
+            <tr>
+                <tr>4</tr>
+                <tr>SCIENCE</tr>
+                <tr>115</tr>
+                <tr>25</tr>
+                <tr>140</tr>
+            </tr>
+            <tr>
+                <tr>5</tr>
+                <tr>MATHS</tr>
+                <tr>120</tr>
+                <tr>50</tr>
+                <tr>170</tr>
+            </tr>
+            <tr>
+                <tr>6</tr>
+                <tr>SOCIAL</tr>
+                <tr>135</tr>
+                <tr>15</tr>
+                <tr>150</tr>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

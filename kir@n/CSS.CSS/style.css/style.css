@@ -1,0 +1,64 @@
+.nav-list{
+    list-style:none;
+    padding:20px;30px;
+    padding:10px;
+}
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content:center
+    top:0px;
+    padding:15px;
+    cursor:pointer;
+}
+.background{
+    background-color:green;
+    background-blend-mode:darken;
+    background-size:cover;
+    font-size:20px black
+}
+.lerner{
+    background-color:black;
+    font-size:25px;
+    font-color:white;
+    align-item:center;
+}
+.firstsection{
+    background-color:black;
+    height:400px;
+}
+.secondsection{
+    background-color:white;
+    height:400px;
+    font-color:black;
+}
+.box-main{
+    display:flex;
+    justify-center:center;
+    align-center:center;
+    background-color:
+    max-width:80%
+    margin:auto;
+    height:80%
+}
+.text-big{
+    font-family:"piazzolla",serlf;
+    font-weight:bold;
+    font-size:35px
+}
+.text-small{
+    font-size=18px;
+}
+
+.aside{
+    width:50px;
+    padding-left:30px;
+    margin-left:15px;
+    background-color:
+}
+.firsthalf{
+    width:100px;
+    display:flex;
+    flex-direction:colume;
+    justify-content:center;
+}

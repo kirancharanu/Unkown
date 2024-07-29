@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <form action="" method="post" target="">
+        <h1>Job Application Web</h1>
+        <label for="name">First Name</label>
+        <input type="text" placeholder"Enter Full name" name="name" required>
+        <label for="last name">Last Name</label>
+        <input type="text" placeholder"Enter last name" name="name" required>
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" placeholder"Enter your Email" name="email" required>
+
+             <label for="Job role">Job role</label>
+             <input list="Job role set" name="Job role" multiple>
+             <datalist id="Job role set">
+                <option value="java"></option>
+                <option value="python"></option>
+                <option value="SQL"></option>
+             </datalist>
+             <br>
+         <span class="gender-title">Gender</span>
+         <div class="Gender category">
+            <label for="male">Male</label>
+             <input type="checkbox" name="Gender" id="male">
+             <label for="Female">Female</label>
+             <input type="checkbox" name="Gender" id="Female">
+             <label for="other">Other</label>
+             <input type="checkbox" name="Gender" id="Other">
+         </div>
+         <span class="habbits-title">Habbits</span>
+             <div class="habbits category">
+                <label for="music">music</label>
+                 <input type="radio" name="habbits" id="music">
+                 <label for="games">Games</label>
+                 <input type="radio" name="habbits" id="Games">
+                 <label for="travel">travel</label>
+                 <input type="radio" name="habbits" id="radio">
+             </div>
+             <label for="Address">Address</label>
+                 <textarea name="Address" rows="3" cols="70"></textarea>
+                 <br>
+                 <label for="city">City</label>
+                <input type="text" placeholder"Enter city name" name="city" required>
+                <label for="pincode">Pincode</label>
+                <input type="number" placeholder"Enter pincode" name="pincode" multiple>
+                <label for="date">Date</label>
+                <input type="date" name="date" required>
+                <br>
+                <label for="file">Upload file</label>
+                <input type="file" placeholder"choose file" name="file" required>
+                <br>
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+    </form> 
+</body>
+</html>

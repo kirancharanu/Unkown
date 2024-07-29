@@ -1,0 +1,25 @@
+.container1{
+    padding:3px;
+    text-align:center;
+    background-color:#aaf2f8;
+    border-bottom:2px solid rgb;
+    text-align:center
+}
+.container2{
+    color:#086A87;
+    font-weight:bold;
+    font-size:12px;
+    font-family:Arial,helvertica,sanserif;
+    border-bottom:1px solid #DDDDDD;
+    padding:10px;
+    text-align:center;
+}
+.container3{
+    padding:6px;
+    color:black;
+    font-weight:bold;
+    margin:0px;
+    font-size:14px;
+    color:blue;
+    text-align:center
+}

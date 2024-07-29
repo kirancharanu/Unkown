@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Multiplication & Division</h1>
+    <form>
+        1st Number:<input type="number" id="Multiplication"><br>
+        2st Number:<input type="number" id="Division">
+        <input type="button" onclick="mult()" value="multiply">
+        <input type="button" onclick="div()" value="division">
+        <p>The Result is: <span id="result"></span></p>
+    </form>
+    <script>
+        function mult(){
+        num1 = document.getElementById("Multiplication").value;
+        num2 = document.getElementById("Division").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+        }
+        function div(){
+        num1 = document.getElementById("Multiplication").value;
+        num2 = document.getElementById("Division").value;
+        document.getElementById("result").innerHTML = num1 / num2;
+        }
+    </script>
+    
+</body>
+</html>

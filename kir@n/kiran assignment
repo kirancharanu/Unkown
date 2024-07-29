@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARKS SHEET</title>
+    <style>
+        table,th,td{
+            padding: 10px;
+        }    
+    </style>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <b>
+            <tr style="background-color: rgb(239, 239, 8);">
+            <th>NO.</th>
+            <th>SUBJECT</th>
+            <TH>NO.OF PASS</TH>
+            <TH>NO.OF FAIL</TH>
+            <TH>TOTAL</TH>
+            </tr>
+            </b>
+        </thead>
+        <tbody>
+             <col span>
+                <col span="1">
+                <col span="1">
+                <col span="1" style="background-color: green;">
+                <col span="1" style="background-color: red;">
+                <col span="1">
+             </col span>
+            <tr>
+                <td>1</td>
+                <TD>TELUGU</TD>
+                <td>130</td>
+                <td>20</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>HINDI</td>
+                <td>100</td>
+                <td>30</td>
+                <td>130</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>ENGLISH</td>
+                <td>100</td>
+                <td rowspan="2">20</td>
+                <td>120</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SCIENCE</td>
+                <td>120</td>
+                <td>140</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>MATHS</td>
+                <td>120</td>
+                <td>50</td>
+                <td>170</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>SOCIAL</td>
+                <td>135</td>
+                <td>15</td>
+                <td>150</td>
+            </tr>
+            <tfoot>
+               <tr style="background-color: yellowgreen;">
+                <td> TOTAL STUDENTS</td>
+                <td></td>
+                <td>715</td>
+                <td>135</td>
+                <td>850</td>
+            </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
